@@ -11,7 +11,19 @@ config_version=4
 [application]
 
 config/name="Ship"
+run/main_scene="res://Game.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://global.gd"
+
+[input]
+
+forward={
+"deadzone": 0.5,
+"events": [  ]
+}
 
 [physics]
 
